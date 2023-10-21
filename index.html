@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikhil_Nagpure_Portfolio</title>
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--
+    - #MAIN
+  -->
+  <main>
+    <!--
+      - #SIDEBAR
+    -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Nikhil Nagpure" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Nikhil Nagpure">Nikhil Nagpure</h1>
+          <p class="title">Cyber-Security Analyst </p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:nikhilnagpure203@gmail.com" class="contact-link">nikhilnagpure203@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>India</address>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+              <a href="https://www.linkedin.com/in/nikhilnagpure24/" class="contact-link" target="_blank">linkedin.com/in/nikhilnagpure24</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+              <a href="https://github.com/5h4d0wn1k" class="contact-link" target="_blank">github.com/5h4d0wn1k</a>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+    <div class="main-content">
+      <!--
+        - #NAVBAR
+      -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+      <!--
+        - #ABOUT
+      -->
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            Enthusiastic tech enthusiast from VIT Bhopal (Class of 2025) with a robust command of C++, Java, and Python.
+            Passionate about cybersecurity, I've pioneered projects like a blockchain-based cloud storage system and an
+            intrusion detection system using machine learning. Currently pursuing SSCP and Google Cybersecurity courses,
+            I thrive on innovation and have a knack for AI technologies.
+          </p>
+          <style>
+            body {
+              font-family: Arial, sans-serif;
+              margin: 20px;
+              padding: 20px;
+            }
+            .section {
+              margin-bottom: 20px;
+            }
+            .heading {
+              font-weight: bold;
+              margin-bottom: 0px;
+              /* Added space below the heading */
+            }
+            .content {
+              margin-left: 20px;
+            }
+          </style>
+          <h3 class="h2 article-title">Why you should hire me:</h3>
+          <p>
+          <div class="section">
+            <div class="heading">Expertise:</div>
+            <div class="content">
+              Proficient in C++, Java, Python, and blockchain technologies.
+            </div>
+          </div>
+          <div class="section">
+            <div class="heading">Innovation:</div>
+            <div class="content">
+              Led projects in blockchain and machine learning, showcasing creativity and problem-solving skills.
+            </div>
+          </div>
+          <div class="section">
+            <div class="heading">Cybersecurity Focus:</div>
+            <div class="content">
+              Actively pursuing SSCP certification and Google Cybersecurity course, deeply committed to enhancing global
+              security standards.
+            </div>
+          </div>
+          <div class="section">
+            <div class="heading">Collaborative:</div>
+            <div class="content">
+              Engaged in real-world projects, including a health chatbot, reflecting teamwork and adaptability.
+            </div>
+          </div>
+          <div class="section">
+            <div class="heading">Passion for AI:</div>
+            <div class="content">
+              Rapid learner and innovator in artificial intelligence, keen on pushing boundaries and exploring creative
+              solutions.
+            </div>
+          </div>
+          </p>
+        </section>
+        <!--
+          - service
+        -->
+        <section class="service">
+          <h3 class="h3 service-title">What I Do</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/scripting.svg"
+                 alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Scripting</h4>
+                <p class="service-item-text">
+                  I have a strong command of scripting languages such as Python and Bash. In my previous role, I used
+                  Python extensively to automate security tasks, analyze logs for potential threats, and develop custom
+                  tools for penetration testing. I also have experience with Git for version control, and I am
+                  constantly learning and exploring new techniques to enhance my skills. I am confident in my ability to
+                  apply these scripting skills effectively to solve cybersecurity challenges and contribute meaningfully
+                  to your team.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/Incidentresponse.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Incident response</h4>
+                <p class="service-item-text">
+                  I possess comprehensive expertise in incident response, emphasizing swift detection, containment,
+                  eradication, and recovery strategies. My approach includes meticulous planning, advanced tool
+                  utilization, and clear communication with stakeholders. I stay abreast of evolving cybersecurity
+                  threats, ensuring adaptive and effective incident response strategies for safeguarding organizations.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/framework.svg" alt="mobile app icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Controls and frameworks</h4>
+                <p class="service-item-text">
+                  I possess a strong understanding of cybersecurity controls and frameworks, including industry
+                  standards like NIST Cybersecurity Framework, ISO/IEC 27001, and sector-specific guidelines such as
+                  HIPAA and PCI DSS. I specialize in implementing diverse security controls, such as access controls and
+                  encryption, ensuring organizations meet regulatory standards and proactively mitigate emerging
+                  threats. My expertise includes evaluating security postures, identifying gaps, and recommending
+                  adaptive measures for continuous improvement, enhancing cybersecurity resilience
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/network.svg" alt="camera icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Network Security Control</h4>
+                <p class="service-item-text">
+                  Cybersecurity expert specializing in advanced network security controls. Proficient in
+                  enterprise-grade firewalls, Intrusion Detection and Prevention Systems (IDPS), robust encryption
+                  protocols, secure VPN setups, Access Control Lists (ACLs), and Multi-Factor Authentication (MFA).
+                  Experienced in proactive security measures, including regular vulnerability assessments and
+                  penetration testing.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <!--
+          - testimonials
+        -->
+        <section class="testimonials">
+        </section>
+        <!--
+          - testimonials modal
+        -->
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <time datetime="2021-06-14">14 June, 2021</time>
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+            </div>
+          </section>
+      </article>
+      <!--
+        - #RESUME
+      -->
+
+<article class="resume" data-page="resume">
+  <header>
+    <h2 class="h2 article-title">Resume</h2>
+  </header>
+  <section class="timeline">
+    <!-- Education Section -->
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Education</h3>
+    </div>
+    <ol class="timeline-list">
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">B.Tech (Cybersecurity and Digital Forensics)</h4>
+        <span>Sept 2021 – Ongoing</span>
+        <p class="timeline-text">Vellore Institute of Technology, Bhopal</p>
+        <p class="timeline-text">CGPA: 7.94/10</p>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Class XII</h4>
+        <span>July 2021</span>
+        <p class="timeline-text">Keshav English School, Waraseoni</p>
+        <p class="timeline-text">Percentage: 82.4%</p>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Class X</h4>
+        <span>May 2019</span>
+        <p class="timeline-text">Keshav English School, Waraseoni</p>
+        <p class="timeline-text">Percentage: 82%</p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="timeline">
+    <!-- Academic Projects Section -->
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Academic Projects</h3>
+    </div>
+    <ol class="timeline-list">
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">A secure warning platform against web attacks using machine learning</h4>
+        <span>July 2022 – October 2022</span>
+        <p class="timeline-text">Description: A tool to analyze, detect, and protect websites from XSS attacks.</p>
+        <p class="timeline-text">Technologies: HTML/CSS, JavaScript, Python, Machine Learning, Jupyter Notebook</p>
+        <p class="timeline-text">Role: XSS attack detection and Web development</p>
+        <p class="timeline-text">
+          <a href="https://github.com/5h4d0wn1k/A-Secure-Warning-Platform-From-Web-Attacks-Using-Machine-Learning">GitHub Link</a>
+        </p>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Decentralized Secure Cloud storage Server Using Blockchain</h4>
+        <span>November 2022 – January 2023</span>
+        <p class="timeline-text">Description: Combined cloud storage with Blockchain technology to create a secured and decentralized cloud storage system.</p>
+        <p class="timeline-text">Technologies: Ethereum, Blockchain, IPFS, Hardhat, Solidity, HTML/CSS, JavaScript</p>
+        <p class="timeline-text">Role: Blockchain deployment and Backend development</p>
+        <p class="timeline-text">
+          <a href="https://github.com/5h4d0wn1k/Decentralized_cloud_storage">GitHub Link</a>
+        </p>
+      </li>
+    </ol>
+  </section>  
+
+  
+  <section class="timeline" style="margin-bottom: 40px;">
+    <!-- Co-Curriculars Section -->
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+      <h3 class="h3" style="margin-bottom: 20px;">Co-Curriculars</h3>
+    </div>
+    <ol class="timeline-list">
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Coding</h4>
+        <p class="timeline-text">Participated in Tryhackme, securing top 12% and achieved Bug base Global Rank - 202.</p>
+      </li>
+    </ol>
+  </section>
+  
+  <section class="timeline">
+    <!-- Extra-Curriculars and Achievements Section -->
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Extra-Curriculars and Achievements</h3>
+    </div>
+    <ol class="timeline-list">
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Achievements</h4>
+        <p class="timeline-text">Secured 36th Rank in Cy VIT CTF competition at VIT Bhopal. Participated in DSA Dash event.</p>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Responsibilities</h4>
+        <p class="timeline-text">Member of Blockchain and Web 3 Development team for Project Blue bird. Event manager at Health O tech club.</p>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Extracurricular</h4>
+        <p class="timeline-text">Participated in Smart India Hackathon and Kavach 2023. Also took part in B-sides Ahmedabad.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="timeline">
+    <!-- Additional Information Section -->
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Additional Information</h3>
+    </div>
+    <ol class="timeline-list">
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Hobbies</h4>
+        <p class="timeline-text">Enthusiastic about problem-solving. Enjoy reading non-fiction books such as "The 48 Laws of Power" and "The Book of Five Rings" by Miyamoto Musashi. Passionate about creating, including activities like Gym and Photography. Love exploring new things and places.</p>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Languages</h4>
+        <p class="timeline-text">Proficient in English and Hindi.</p>
+      </li>
+    </ol>
+  </section>
+
+<section class="timeline">
+  <!-- Experience Section -->
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <ion-icon name="book-outline"></ion-icon>
+    </div>
+    <h3 class="h3">Experience</h3>
+  </div>
+  <ol class="timeline-list">
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Creative director</h4>
+      <span>2015 — Present</span>
+      <p class="timeline-text">Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.</p>
+    </li>
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Art director</h4>
+      <span>2013 — 2015</span>
+      <p class="timeline-text">Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.</p>
+    </li>
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Web designer</h4>
+      <span>2010 — 2013</span>
+      <p class="timeline-text">Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.</p>
+    </li>
+  </ol>
+</section>
+
+
+<section class="skill">
+  <!-- Skills Section -->
+  <h3 class="h3 skills-title">My Skills</h3>
+  <ul class="skills-list content-card">
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">Python</h5>
+        <data value="80">80%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 80%;"></div>
+      </div>
+    </li>
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">Cybersecurity</h5>
+        <data value="80">80%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 80%;"></div>
+      </div>
+    </li>
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">Pentesting</h5>
+        <data value="70">70%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 70%;"></div>
+      </div>
+    </li>
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">DSA</h5>
+        <data value="50">50%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 50%;"></div>
+      </div>
+    </li>
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">Development</h5>
+        <data value="50">50%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 50%;"></div>
+      </div>
+    </li>
+  </ul>
+</section>
+</article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+      <article class="Portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <section class="portfolio">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn="Cyber-Security">Cyber-Security</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn="Web-development">Web development</button>
+            </li>
+          </ul>
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Cyber Security</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+            </ul>
+          </div>
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon class="project3-eye-icon" name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project3.png" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Portfolio</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Cyber Security">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon class="project1-eye-icon" name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project1.png" alt="secure platform" loading="lazy">
+                </figure>
+                <h3 class="project-title">A secure warning platform</h3>
+                <p class="project-category">Cyber Security</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Cyber Security">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon class="project2-eye-icon" name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project2.jpg" alt="Decentralizedcloud" loading="lazy">
+                </figure>
+                <h3 class="project-title">Decentralized cloud storage</h3>
+                <p class="project-category">Cyber Security</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+      <!--
+        - #BLOG
+      -->
+      <!--
+        - #CONTACT
+      -->
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="contact-form">
+          <!-- Form as you provided in the previous messages -->
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form id="contactForm" class="form" data-notification="notification"></form>
+          <form action="https://formspree.io/f/xpzgbzgk" method="POST" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </form>
+        </section>
+        <div class="notification" id="notification">
+          Thanks for contacting Nikhil! He will respond to you as soon as possible.
+        </div>
+      </article>
+            
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
