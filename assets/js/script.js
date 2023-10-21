@@ -225,10 +225,10 @@ projectEyeIcons2.forEach(icon => {
     });
 });
 
-const projectEyeIcons3 = document.querySelectorAll('.project1-eye-icon');
+const projectEyeIcons3 = document.querySelectorAll('.project3-eye-icon');
 
 // GitHub link for your projects
-const githubLink3 = 'https://github.com/';
+const githubLink3 = 'https://github.com/5h4d0wn1k/personal-portfolio';
 
 // Add click event listener to each eye icon
 projectEyeIcons3.forEach(icon => {
